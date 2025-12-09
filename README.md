@@ -48,23 +48,23 @@ text
 ### 3. Environment Configuration
 Create a `.env` file in the `/backend` folder using the example below:
 
-# .env Example
-# Server
+### .env Example
+### Server
 PORT=3000
 
-# Database (Supabase)
+### Database (Supabase)
 DATABASE_URL=postgresql://user:password@host:5432/dbname
 
-# AI Provider (Groq)
+### AI Provider (Groq)
 GROQ_API_KEY=gsk_your_key_here
 
-# Outbound Email (Gmail SMTP)
-# Note: Use an 'App Password' if 2FA is enabled on your Google Account
+### Outbound Email (Gmail SMTP)
+### Note: Use an 'App Password' if 2FA is enabled on your Google Account
 SMTP_EMAIL=your_email@gmail.com
 SMTP_PASSWORD=your_app_password
 
-# Inbound Email (AgentMail)
-# This serves as the 'Reply-To' address to capture vendor responses
+### Inbound Email (AgentMail)
+### This serves as the 'Reply-To' address to capture vendor responses
 AGENT_EMAIL_ADDRESS=your_inbox@agentmail.to
 AGENTMAIL_API_KEY=am_your_api_key
 
